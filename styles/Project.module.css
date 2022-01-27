@@ -1,0 +1,27 @@
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #e4f0ff;
+  padding: 15px;
+  border-radius: 25px;
+  opacity: 0.9;
+  height: 320px;
+  min-width: 270px;
+  margin: 5px 15px;
+}
+
+.title {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.description {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
