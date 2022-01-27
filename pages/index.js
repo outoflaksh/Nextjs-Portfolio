@@ -3,6 +3,8 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import About from "../components/About";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div>
+      <div style={{ "scroll-snap-type": "y mandatory" }}>
         <Hero />
+        <About />
+        <Projects />
       </div>
       <Footer />
     </>
