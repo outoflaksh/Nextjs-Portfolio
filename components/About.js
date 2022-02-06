@@ -17,17 +17,17 @@ const About = () => {
           Like a lot of beginners, I started my journey by building simple
           static sites using HTML & CSS. Then, JavaScript came along to make
           things jazzier.
-          <p>
-            Then, I discovered Python and my world expanded as I delved in
-            software development, machine learning, and backend development.
-            That is until, recently, when my old passion for frontend reignited
-            with React.
-          </p>
-          <p>
-            Now, I spend my time developing full-stack web applications using
-            technologies like React, Next, Express, FastAPI, Flask, MongoDB, and
-            PostgreSQL.
-          </p>
+        </p>
+        <p className={styles.paragraph}>
+          Then, I discovered Python and my world expanded as I delved in
+          software development, machine learning, and backend development. That
+          is until, recently, when my old passion for frontend reignited with
+          React.
+        </p>
+        <p className={styles.paragraph}>
+          Now, I spend my time developing full-stack web applications using
+          technologies like React, Next, Express, FastAPI, Flask, MongoDB, and
+          PostgreSQL.
         </p>
       </section>
     </div>

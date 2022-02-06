@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <div style={{ "scroll-snap-type": "y mandatory" }}>
+      <div style={{ scrollSnapType: "y mandatory" }}>
         <Hero />
         <About />
         <Projects />
