@@ -10,6 +10,7 @@ body {
 
 body {
   background: #254270;
+  scroll-snap-type: y mandatory;
 }
 
 a {
@@ -19,4 +20,6 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
