@@ -2,13 +2,15 @@
   display: flex;
   align-items: center;
   width: 100%;
-  position: absolute;
+  background-color: #12223ac4;
+  box-shadow: 0px 20px 20px rgba (0, 0, 0, 0.4);
+  z-index: 2;
+
+  position: sticky;
   top: 0;
-  background-color: #12223a;
-  opacity: 0.85;
-  backdrop-filter: blur(50px);
-  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.4);
-  z-index: 3;
+
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .nav li {
@@ -17,5 +19,5 @@
 
 .nav_link {
   color: white;
-  padding: 10px 20px;
+  padding: 20px;
 }
