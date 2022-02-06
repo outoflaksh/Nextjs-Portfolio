@@ -2,9 +2,9 @@
   min-height: 100vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   text-align: center;
   position: relative;
   scroll-snap-align: start;
@@ -24,12 +24,14 @@
   color: #e4f0ff;
   font-size: 1.6rem;
   font-weight: 700;
+  margin: 15px 0px;
 }
 
 .subheading {
   color: #b6cbff;
   font-size: 1.3rem;
   font-weight: 600;
+  margin: 15px 0px;
 }
 
 .mono {
@@ -40,6 +42,7 @@
   color: #e4f0ff;
   font-size: 1.1rem;
   font-weight: 500;
+  margin: 15px 0px;
 }
 
 .border {
