@@ -4,11 +4,11 @@ import { FaSkiing } from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <i className={styles.icon}>
         <FaSkiing size="2rem" color="#FFEECB" />
       </i>
-      <section className={`${styles.main} ${styles.border}`}>
+      <div className={`${styles.main} ${styles.border}`}>
         <h1 className={styles.heading}>My Tech Journey:</h1>
         <h3 className={`${styles.subheading} ${styles.mono}`}>
           Frontend dev turned Backend dev turned Full Stack dev
@@ -29,8 +29,8 @@ const About = () => {
           technologies like React, Next, Express, FastAPI, Flask, MongoDB, and
           PostgreSQL.
         </p>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

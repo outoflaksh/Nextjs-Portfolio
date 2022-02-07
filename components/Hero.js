@@ -10,14 +10,14 @@ const Hero = () => {
   return (
     <section className={commonStyles.container}>
       <div>
-        <section className={styles.info}>
+        <div className={styles.info}>
           <GiUfo color="#61ECBC" size="3.5rem" />
           <h3>Hello, world. I am</h3>
           <h1>Lakshya Malik</h1>
           <h2>{"<software developer/>"}</h2>
-        </section>
+        </div>
 
-        <section className={styles.skills}>
+        <div className={styles.skills}>
           <h4>My primary tech stack:</h4>
           <div className={styles.skill_icons}>
             <li className={styles.skill_icon}>
@@ -36,7 +36,7 @@ const Hero = () => {
               <SiMongodb color="#B6CBFF" size="4rem" />
             </li>
           </div>
-        </section>
+        </div>
         <BsChevronDoubleDown
           color="#FFEECB"
           size="2rem"

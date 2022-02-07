@@ -25,20 +25,20 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <i className={styles.icon}>
         <FaRocket size="2rem" color="#FFEECB" />
       </i>
-      <section className={styles.main}>
+      <div className={styles.main}>
         <h1 className={styles.heading}>What I've built so far:</h1>
-        <section className={projectStyles.cards}>
+        <div className={projectStyles.cards}>
           {projectData.map((project, idx) => (
             <ProjectCard details={project} key={idx} />
           ))}
-        </section>
+        </div>
         <h1 className={styles.heading}>...and many more to come</h1>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
