@@ -12,13 +12,13 @@ export default function Home() {
       <Head>
         <title>Lakshya Malik</title>
       </Head>
-      <Navbar />
 
-      <div style={{ scrollSnapType: "y mandatory" }}>
+      <main>
+        <Navbar />
         <Hero />
         <About />
         <Projects />
-      </div>
+      </main>
       <Footer />
     </>
   );
