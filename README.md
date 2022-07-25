@@ -1,3 +1,3 @@
 # Next.js Developer Portfolio
 
-## Work in progress!🚀
+## gonna delete this lol
